@@ -256,6 +256,50 @@ footer > p {
     margin-bottom: 10px;
 }
 
+#contact {
+    position: relative;
+    margin-bottom: -370px;
+
+}
+.contact-boxes-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+	float: left;
+}
+
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: -20px;
+	float: right;
+}
+.contact-box-center {
+    width: 250px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.text-center {
+    text-align: center;
+    padding-left: 50px;
+}
+
+text-right {
+    text-align: right;
+}
+
+text-left {
+    text-align: left;
+   
+}
+
 
 
 
