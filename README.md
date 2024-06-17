@@ -15,7 +15,7 @@ Below shows an image of the first thing you will see when you visit our website 
 ## Features
 
 Below we will discuss different parts of our website and how it achieves its 
-purpose of giving out the required information to anyone who wishes t.
+purpose of giving out the required information to anyone who wishes.
 o0 know about SeaFood Haven.
 
 - __Navigation Bar__
