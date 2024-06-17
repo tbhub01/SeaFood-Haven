@@ -91,15 +91,24 @@ I have had to source materials from the web such as background pictures, videos,
 
 ### Content 
 
-- The address used for my "contact us" section has been sourced from google
-- Credits to fat crab for the menu ideas [The Fat Crab] (https://www.thefatcrab.com/menu/)
+- The address used for my "contact us" section has been sourced from google.
+- Credits to fat crab for the menu ideas [The Fat Crab](https://www.thefatcrab.com/menu/)
 
 ### Media
 
-- Credits go to the photos used as follows:
-  - The home page [Latimers Lobster Platter] (https://www.latimers.com/wp-content/uploads/2014/11/Luxury-Lobster-Platter.jpg)
-  - The menu background image [i pinimg fish picture] (https://i.pinimg.com/736x/17/20/af/1720af27583d72cc61d0989e2adffc20.jpg)
-  - T
+- Credits for photos used are as follows:
+  - The home page [Latimers Lobster Platter](https://www.latimers.com/wp-content/uploads/2014/11/Luxury-Lobster-Platter.jpg)
+  - The menu background image [pinimg picture](https://i.pinimg.com/736x/17/20/af/1720af27583d72cc61d0989e2adffc20.jpg)
+  - The career page credit goes to dreamstime. [Dreamstime](https://thumbs.dreamstime.com/z/positive-chef-man-showing-something-standing-white-background-studio-restaurant-offer-free-space-text-172244029.jpg)
+
+- Credits for videos on the explore page are as follows:
+  - [Eat Spicy with Tee](https://youtu.be/7wgWDoX8I_0)
+  - [Travel Thirsty](https://youtu.be/QllKqYPyUZ8)
+  - [Randy Santel](https://youtu.be/8bor2V_fNy4)
+  - [Gordon Ramsay](https://youtu.be/M_J0UMUwvR8)
+
+### Others
+  - During my project process I drew on a piece of paper the layout on how I will like my project to look. I then watched a lot of videos on youtube to learn different CSS coding ideas. The vast information I got from youtube and my educational materials were what I put together to customise my own project and ensured no copy and paste data was used to prevent plagiarism. 
 
 
 
