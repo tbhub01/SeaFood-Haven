@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>SeaFood Haven Survey</title>
 </head>
 
@@ -27,16 +27,126 @@
      
          <Script src="./script.js"></Script>
     
-
-
-
+         <div class="container ">
+            <header class="header">
+                <h1 id="title">
+                    Survey from SeaFood Haven
+                </h1>
+                <p id="description">
+                    Thank you for taking the time to help us to improve our service.
+                </p>
+            </header>
+            <form action="https://survey.seafoodhaven.co.uk" id="survey-form">
+    
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+                </div>
+              
+    
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="formControl" placeholder="Enter your Email" required>
+                </div>
+                
+    
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone" class="formControl" placeholder="Enter your phone number" required>
+                </div>
+                
+    
+                
+                <div class="form-group">
+                    <label for="address">Address <span class="clue">(optional)</span></label>
+                    <input type="text" name="address" id="address" class="formControl" placeholder="Enter your address">
+                </div>
+                
+    
+               
+                <div class="form-group">
+                    <p id="quest">How many times a month do you eat Seafood</p>
+                    <select name="often" required id="dropdown" class="formControl">
+                        <option value disabled selected >Select the number of times a month</option>
+                        <option value="0-2times-a-month">0-2 times a month</option>
+                        <option value="2-4times-a-month">2-4 times a month</option>
+                        <option value="4-6times-a-month">4-6 times a month</option>
+                        <option value="7plus-times-a-month">7plus times a month</option>
+                    </select>
+                </div>
+              
+    
+               
+                <div class="form-group">
+                    <p id="quest1">How you did you hear about SeaFood Haven ?</p>
+                    <label>
+                        <input type="radio" name="source" value="referral"
+                        class="inputRadio"
+                        checked> Referral
+                    </label>
+                    <label>
+                        <input type="radio" name="source" value="search-engines"
+                        class="inputRadio"
+                        >Search engines
+                    </label>
+                    <label>
+                        <input type="radio" name="source" value="social-media"
+                        class="inputRadio"
+                        > Social Media
+                    </label>
+                    <label>
+                        <input type="radio" name="source" value="billboard"
+                        class="inputRadio"
+                        > Billboard
+                    </label>
+                    <label>
+                        <input type="radio" name="source" value="other"
+                        class="inputRadio"
+                        > Other
+                    </label>
+                </div>
+                
+    
+                
+                <div class="form-group">
+                    <p id="quest2">What can we improve on to make your visit more delightful? </p>
+                    <label>
+                        <input type="checkbox" name="prefer" class="checkbox" value="food-quality"> Food Quality
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" class="checkbox" value="overall-service-quality"> Service Quality
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" class="checkbox" value="ambiance">  Ambiance
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" class="checkbox" value="value-for-money"> Value for Money
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" class="checkbox" value="overall-experience"> Overall Experience
+                    </label>
+                </div>
+              
+    
+             
+                <div class="form-group">
+                    <p id="quest3">Give us your feedback</p>
+                    <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder="Enter your feedback here..."></textarea>
+                </div>
+    
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset" >Reset</button>
+             
 
     </form>
 </div>
 
  </div>
 
- <footer class="text-uppercase">
+    <footer class="text-uppercase">
 
     <span>Find us on:</span>
 
