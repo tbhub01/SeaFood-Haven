@@ -318,6 +318,19 @@ text-left {
 }
 
 
+.move-down{
+    margin-top: -250px;
+}
+
+#map {
+   
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    filter: invert(100%);
+       
+}
+
 
 
 
