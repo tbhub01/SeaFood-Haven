@@ -1,0 +1,67 @@
+@import url(https://fonts.google.com/share?selection.family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-style: normal;
+    font-family: 'poppins', sans-serif, Arial;
+    color:hsl(24, 90%, 50%);
+    background: #000000;
+}
+
+.bgAnimation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+    background: black;
+    filter: saturate(2);
+    overflow: hidden;
+        
+}
+
+.colorBox{
+    z-index: 2;
+    filter: brightness(1.1);
+    transition: relative;
+    margin: 2px;
+    background: #0f0f0f;
+}
+
+.colorBox:hover{
+    background: #172ce9;
+    transition-duration: 0s;
+}
+
+.backgroundAmim{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #172ce9;
+    filter: blur(60px);
+    animation: animBack 6s linear infinite;
+       
+}
+
+@keyframes animBack {
+    0%{
+        top: -60px;
+    }
+    100%{
+        top: 120%;
+    }
+}
+
+
+
