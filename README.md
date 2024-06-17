@@ -14,7 +14,7 @@ Below shows an image of the first thing you will see when you visit our website 
 
 ## Features
 
-Below we will discuss different parts of our website and how it achieves its s 
+Below we will discuss different parts of our website and how it achieves its 
 purpose of giving out the required information to anyone who wishes t.
 o0 know about SeaFood Haven.
 
