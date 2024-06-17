@@ -218,4 +218,46 @@ footer > p {
 	color: silver;
 }
 
+.text-uppercase {
+    text-transform: uppercase;
+    
+}
+
+#menu{
+    width: 100%;
+}
+
+.menu-image{
+    position: relative;
+  
+    background-size: cover;
+    
+}
+
+.menu-text{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-35%,-40%);
+    color: black;
+    font-size: 20px; 
+   
+}
+
+.menuhome {
+    width: 100%;
+    min-height: 100vh;
+    backdrop-filter: blur(1px);
+    pointer-events: none;
+    justify-content: center;  
+}
+
+#food {
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
