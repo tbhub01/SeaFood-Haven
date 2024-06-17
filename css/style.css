@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body{
@@ -25,8 +24,7 @@ body{
     grid-template-rows: repeat(20,1fr);
     background: black;
     filter: saturate(2);
-    overflow: hidden;
-        
+    overflow: hidden;     
 }
 
 .colorBox{
@@ -50,8 +48,7 @@ body{
     height: 60px;
     background: #172ce9;
     filter: blur(60px);
-    animation: animBack 6s linear infinite;
-       
+    animation: animBack 6s linear infinite;     
 }
 
 @keyframes animBack {
@@ -81,9 +78,7 @@ body{
     height: 100px;
     align-items: center;
     font-family: "Lucida Handwritting", cursive;
-
 }
-
 
 .container nav h1{
     font-size: 2.6em;
@@ -94,19 +89,14 @@ body{
     letter-spacing: 4px;
 }
 
-
-
 .container nav h1 span{
     color: #172ce9;
    
 } 
 
-
 .container nav ul{
     display: flex;
 }
-
-
 
 .container nav ul li{
     position: relative;
@@ -119,8 +109,6 @@ body{
     transition: .3s;
     overflow: hidden;
 }
-
-
 
 .container nav ul li::after{
     content: '';
@@ -137,7 +125,6 @@ body{
 .container nav li:hover{
     color: #f0680d;
 }
-
 
 .container nav li:hover::after{
     width: 80%;
@@ -202,7 +189,6 @@ li{
     padding: 10px;
 }
 
-
 footer > span {
 	color: silver;
 }
@@ -229,8 +215,8 @@ footer > p {
 
 .menu-image{
     position: relative;
-  
     background-size: cover;
+    background-position: center;
     
 }
 
@@ -261,6 +247,7 @@ footer > p {
     margin-bottom: -370px;
 
 }
+
 .contact-boxes-container {
     width: 70%;
     margin: 0 auto;
@@ -278,6 +265,7 @@ footer > p {
     margin-top: -20px;
 	float: right;
 }
+
 .contact-box-center {
     width: 250px;
     height: 350px;
@@ -306,7 +294,7 @@ text-left {
     
 }
 
-#videos{
+#explore-footer{
     height: 55px;
     text-transform: uppercase;
     
@@ -316,7 +304,6 @@ text-left {
     text-transform: uppercase;
     height: 90px;
 }
-
 
 .move-down{
     margin-top: -250px;
@@ -330,10 +317,3 @@ text-left {
     filter: invert(100%);
        
 }
-
-
-
-
-
-
-

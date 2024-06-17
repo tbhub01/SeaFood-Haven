@@ -11,7 +11,6 @@
     font-family: "Lucida Handwritting", cursive; 
 }
 
-
 .banner nav h1{
     font-size: 2.6em;
     color: #f0680d;
@@ -21,18 +20,14 @@
     letter-spacing: 4px;
 }
 
-
 .banner nav h1 span {
     color: #172ce9;
    
 }
 
-
 .banner nav ul{
     display: flex;
 }
-
-
 
 .banner nav ul li{
     position: relative;
@@ -46,8 +41,6 @@
     overflow: hidden;
 }
 
-
-
 .banner nav ul li::after{
     content: '';
     position: absolute;
@@ -60,16 +53,13 @@
     transition: .3s;
 }
 
-
 .banner nav li:hover{
     color: #f0680d;
 }
 
-
 .banner nav li:hover::after{
     width: 80%;
 }
-
 
 :root{
     
@@ -89,6 +79,7 @@ body{
     color:  black;
     margin: 0;
 }
+
 body::before{
     content: '';
     position: fixed;
@@ -103,6 +94,7 @@ body::before{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #title{
     color: var(--color-green);
     font-weight: 600; 
@@ -113,13 +105,16 @@ h1{
     font-weight: 400;
     line-height: 1.2;
 }
+
 p{
     font-size: 1.125rem;
 }
+
 h1,p{
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
+
 label{
     display: flex;
     align-items: center;
@@ -133,6 +128,7 @@ input,button,select,textarea{
     font-size: inherit;
     line-height: inherit;
 }
+
 .container{
     width: 100%;
     margin: 3.125rem auto 0 auto;
@@ -144,17 +140,20 @@ input,button,select,textarea{
     margin-bottom: 1.875rem;
     text-align: center;
 }
+
 #description{
     font-style: italic;
     font-weight: 200;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 
 }
+
 .clue{
     margin-left: 0.25rem;
     font-size: 0.9rem;
     color: #e4e4e4;
 }
+
 #quest{
     color: black;
     font-size: 1.5rem;
@@ -175,7 +174,6 @@ input,button,select,textarea{
     font-size: 1.5rem;
 }
 
-
 .form{
     background: var(--color-darkblue-alpha);
     border-radius: 0.25rem;
@@ -186,10 +184,12 @@ input,button,select,textarea{
         padding: 2.5rem;
     }
 }
+
 .form-group{
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
 }
+
 .formControl{
     display: block;
     width: 100%;
@@ -202,11 +202,13 @@ input,button,select,textarea{
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
 }
+
 .formControl:focus{
     border-color:blue;
     outline: 0;
     box-shadow:0 0 0 0.2rem rgba(0,123,255,0.25)
 }
+
 .inputRadio,
 .checkbox
 {
@@ -216,6 +218,7 @@ input,button,select,textarea{
     min-width: 1.25rem;
 
 }
+
 .textarea{
     width: 100%;
     padding: 0.75rem;
@@ -230,6 +233,7 @@ input,button,select,textarea{
         max-width: 540px;
     }
 }
+
 @media (min-width:800px){
     .container{
         max-width: 760px;
