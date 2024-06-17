@@ -307,11 +307,15 @@ text-left {
 }
 
 #videos{
-    margin-top: -50px;
+    height: 55px;
     text-transform: uppercase;
     
 }
 
+.ftcareers{
+    text-transform: uppercase;
+    height: 90px;
+}
 
 
 
