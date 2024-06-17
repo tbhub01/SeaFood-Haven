@@ -64,6 +64,49 @@ The main bugs during my testing phrase were minor error or a missed closed decla
 
 ### Validator Testing
 
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator]("http://jigsaw.w3.org/css-validator/check/referer")
+
+### Unfixed Bugs
+
+The bugs I have found after an intensive run-through and testing of my website are:
+- The contact us details are not fixed and move when the page size is reduced.
+- The google map is not interactive - night vision and zoom in and out does not operate.
+
+## Deployment
+
+I ran into some issues during my deployment process. I tried to debug the issues by myself which resulted in deleting the linked repo to the project I worked on in gitpod. The project coding was not lost and after having a live chat with the tutors, I was adviced to create a new repo and I will loose the logs of all the days of changes that were done to get to this point.
+
+- I resolved the issue by the following steps:
+  - I created a new repository in github.
+  - Followed by a new workspace to link both together.
+  - I copied and pasted the step-by-step process (while commiting my steps)
+  - This resolved the issue and got my project completed.
+
+## Credits 
+
+I have had to source materials from the web such as background pictures, videos, and google map to complete the requirements of my project. This has been broken down into 3 steps: Content, Media and Other sources.
+
+### Content 
+
+- The address used for my "contact us" section has been sourced from google
+- Credits to fat crab for the menu ideas [The Fat Crab] (https://www.thefatcrab.com/menu/)
+
+### Media
+
+- Credits go to the photos used as follows:
+  - The home page [Latimers Lobster Platter] (https://www.latimers.com/wp-content/uploads/2014/11/Luxury-Lobster-Platter.jpg)
+  - The menu background image [i pinimg fish picture] (https://i.pinimg.com/736x/17/20/af/1720af27583d72cc61d0989e2adffc20.jpg)
+  - T
+
+
+
+
+    
+
+
 
 
 
